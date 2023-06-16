@@ -1,0 +1,88 @@
+What is a protocol stack, and how is it used in web development?
+
+Protocol stack is the sequence of protocols that someone has to go through while establishing a connection or sharing the information.
+Protocol stack comprises of following layers:
+1. Link layers ( contains Ethernet or Wireless LAN )
+2. Network layer ( IP V4, V6 )
+3. Transport Layer ( this converts infromation into small packets for transfer ), these can be vis TCP or UDP.
+4. Application Layer ( DNS, HTTP, TLS ) - this layer comprises of client side applications, through which client interacts with the system.
+
+
+What are the different types of web servers, and how do they differ in terms of functionality and performance?
+1. Web server
+An open-source web server is used for accessing the world wide web through public domain software. These servers connect stored information from an internet website to your own computer. Web servers store information for the internet that is retrieved via "HTTP" code and sent to your web browser. This is one of the most widely used types of servers.
+
+2. Proxy server
+Proxy servers act as a bridge between a host server and a client server. A proxy sends data from a website to your computer IP address after it passes through the proxy's server. This practice adds a layer of security since the information is requested then transferred from the source to the proxy server and never directly from a client to another user. A proxy server can filter out various harmful internet entities.
+
+3. Virtual machine (VM)
+As their name suggests, virtual machines store and connect data strictly through virtual space. To create a virtual machine, IT teams use a hypervisor, also known as a virtual machine monitor (VMM), which is software that can run thousands of virtual machines through only one piece of physical hardware. This method of server virtualization is widely used for data transfer and storage because they are the most cost-effective type of server to run.
+
+4. File transfer protocol (FTP) server
+FTP servers are used to relocate files from one computer to another. Uploaded files move from your computer to the server while downloaded files are extracted from the server onto your device. File transfer protocol also refers to the method of using a server to connect one computer to another in order to share data safely.
+
+5. Application server
+These servers connect clients to software applications through virtual server connections. This allows users to bypass downloading data to their own hardware in order to access applications. Application servers can effectively host large amounts of application data to many users at once, making them ideal for businesses.
+
+6. File server
+A file server stores data files for multiple users. They allow for faster data retrieval and saving or writing files to a computer. This is a basic type of server used commonly by organizations where lots of users need access to files that are more conveniently and safely stored on a server than a personal computer.
+
+7. Database server
+Database servers function as large storage spaces that organizations use and access to run multiple programs to meet their needs. A database server can run independently of any database architecture.
+
+8. Mail server
+A mail server stores and delivers mail for clients through email service platforms. Because mail servers are set up to continually connect to a network, individual users can access their email without running any systems through their own devices.
+
+9. Print server
+A print server connects remotely to local computers to print through a network. These servers give businesses the ability to use a single printer to serve an entire department. Some printers even come with their own built-in server ready to join a network once they're installed in an office area.
+
+10. Domain name system (DNS) server
+These servers transform readable computer domain names into computer language IP addresses. The DNS server takes search data from a user and finds the requested address to deliver to the client device.
+
+11. Collaboration server
+When work needs to be shared across multiple users, a collaboration server makes it easy to connect. These servers allow you to share and store files, applications and other large amounts of data.
+
+12. Gaming server
+Large gaming networks use servers to connect users from around the world. These servers host multi-player online games.
+
+13. Monitoring and management server
+Monitoring and management servers function in several capacities. First, they record and track digital transactions and receive user requests. Others simply monitor and don't actively participate in user operations. Monitoring servers are responsive to network administrators who survey network health to check for threats or bugs in the system.
+
+
+
+What is web hosting, and what are the different types of hosting services available for websites?
+
+Web Hosting is a service that allows hosting/post-web-server applications on a computer system through which web-browser clients can have easy access of information on the Internet.
+
+Different types of Web hosting:
+
+Shared Hosting
+Cloud hosting
+Managed Hosting
+VPS hosting
+Dedicated Hosting
+
+
+What is scaling, and why is it important for web applications? How does scaling differ for vertical and horizontal scaling?
+The scaling of an application can be defined as the number of requests a system can effectively support simultaneously. The point at which the system can no longer handle additional requests, is the limit of scalability, the limit at which the resources runs out and require more resources. Scaling comes in to picture.
+
+Scaling horizontally and scaling vertically are similar in that they both involve adding computing resources to your infrastructure.
+
+Horizontal scaling means scaling by adding more machines to your pool of resources (also described as “scaling out”), whereas vertical scaling refers to scaling by adding more power (e.g. CPU, RAM) to an existing machine (also described as “scaling up”)
+
+In simple words, horizontal scaling means increasing the number of resources to function, while vertical scaling means to improve functaionality by distributing/splitting tasks in levels.
+
+
+What is SEO (Search Engine Optimization), and how can web developers optimize their websites for better search engine rankings?
+
+SEO search engine optimization is the process or we can say methods used to improve our web pages ranking globally, by using proper semantics and SEO optimization techniques.
+
+Actualy, based on the websites/webpages content search engines ranks the webpages and the methods that we use to improve the ranking of sites are called SEO optimization.
+
+Methods to optimize SEO ranking:
+1. Use of proper related keywords.
+2. Making out web page mobile-screen friendly.
+3. Finding broken backlink : Broken link building refers to finding broken external links on other websites. And then recommending they link to you instead.
+4. Use Supporting Content to Show Topical Expertise
+5. Optimize for image SEO
+6. Use links for brands on website.
