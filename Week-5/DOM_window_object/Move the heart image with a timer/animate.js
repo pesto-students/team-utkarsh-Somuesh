@@ -23,7 +23,7 @@ function startAnimation(e) {
 }
 
 function moveImage(x, y) {
-   const img = document.querySelector("img");
+   const img = document.getElementById("myimg");
             
    // Determine location of image
    let imgX = parseInt(img.style.left);
