@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message creator</title>
+    <style>
+        table td{
+            min-width: 150px;
+        }
+        button{
+            margin-top:10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Birthday Message Creator</h1>
+    <form>
+        <table>
+            <tr><td><label for="message">Message? : </label></td><td><input id="message" type="text" name="message"/></td></tr>
+            <tr><td><label for="email">Email? : </label></td><td><input id="email" type="email" name="email"/></td></tr>
+            <tr><td><label for="date">Date to send? : </label></td><td><input id="date" name="date" type="date"/></td></tr>
+            <tr><td><label for="color">Message color? : </label></td><td><input id="color" type="color" name="color"/></td></tr>
+            <tr><td><label for="blink">No. of Blink? : </label></td><td><input id="blink" type="number" name="blink" min="0" max="10" value="0"/></td></tr>
+            <tr><td><label for="volume">Music volume? : </label></td><td><input id="volume" type="range" name="volume" min="0" max="50" value="20"/></td></tr>
+        </table>
+        <button>Send birthday message</button>
+    </form>
+</body>
+</html>

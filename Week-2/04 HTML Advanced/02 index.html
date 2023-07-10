@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starting line up</title>
+    <style>
+        label, input, button, select{
+            margin: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Starting line up</h1>
+
+        <fieldset>
+        <legend>Status:</legend>
+        <input type="radio" id="draft" name="status"><label for="draft">Draft</label></input>
+        <input type="radio" id="final" checked name="status"><label for="final">Final</label>
+        </fieldset>
+        <label for="Date">Date</label>
+        <select>
+            <option value="Mar 24" name="gameDate">Mar 24</option>
+            <option value="Mar 25" name="gameDate">Mar 25</option>
+            <option value="Mar 26" name="gameDate">Mar 26</option>
+            <option value="Mar 27" name="gameDate">Mar 27</option>
+        </select>
+        <fieldset>
+            <legend>Players:</legend>
+
+            <input type="checkbox" id="Somesh" value="Somesh" name="player"><label for="Somesh">Somesh</label><br>
+            <input type="checkbox" id="virat" value="Virat" name="player"><label for="virat">Virat</label><br>
+            <input type="checkbox" id="dhoni" value="Dhoni" name="player"><label for="dhoni">Dhoni</label><br>
+            <input type="checkbox" id="mohit" value="Mohit" name="player"><label for="mohit">Mohit</label>
+
+        </fieldset>
+        <input type="Submit">
+    </form>
+</body>
+</html>

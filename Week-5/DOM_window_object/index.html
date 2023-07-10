@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window Object</title>
+</head>
+<body>
+    <h2>Playing with window object!</h2>
+    <script>
+        function displayWindowProperties(){
+            //Displaying various window properties:
+            console.log("UserAgent: "+navigator.userAgent);
+            console.log("Screen width: "+screen.width+" Screen height: "+screen.height);
+            console.log("Current url:"+location.href+" Path: "+location.pathname);
+
+            //storing information in local storage -> setItem()
+            localStorage.setItem("name","Arjun");
+
+            //using getItem() to access information from storage
+            console.log("Local Storage:"+localStorage.getItem("name"));
+            
+            //storing information in session storage -> setItem()
+            sessionStorage.setItem("name1","Krishna");
+
+            //using getItem() to access information from storage
+            console.log("Session Storage:"+sessionStorage.getItem("name1"));
+            
+        }
+        
+        displayWindowProperties();
+
+    </script>
+</body>
+</html>
