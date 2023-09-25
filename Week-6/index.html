@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project : Generate Images using OpenAI API</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logoText"><img class="logo" src="./robo.jpg" alt="Image Generator"><h2>Painter <br>Robo</h2></div>
+
+        <ul class="menu">
+            <li class="menu-item">Home</li>
+            <li class="menu-item">About</li>
+        </ul>
+    </header>
+    <section id="takeInput">
+        <h1 class="heading">AI Image Generator</h1>
+        <form>
+            <input type="text" class="inputPrompt" placeholder='"Give your query here!"' id="promptInput" required>   <br>
+            <button type="submit" id="btnSubmit">Generate</button>
+        </form>
+    </section>
+    <section id="displayOutput">
+        
+            <div class="outputText" id="oText">Your Output will be shown here!</div>
+            <img src="./photo.jpeg" alt="sm" id="generatedImage">
+        
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>
