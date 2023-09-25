@@ -1,6 +1,6 @@
 //API endpoint and token:
 const API_ENDPOINT = "https://api.openai.com/v1/images/generations";
-const ACCESS_TOKEN = "sk-LmaSSz7AoKiywBlkPDT3BlbkFJhRfuAldJSDq9P8sVPat";
+const ACCESS_TOKEN = "----------------TOKEN------------------------";
 
 //Useful DOM elements:
 const submitBtn = document.getElementById("takeInput");
