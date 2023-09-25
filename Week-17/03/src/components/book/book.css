@@ -1,0 +1,31 @@
+.book-card button{
+    height: fit-content;
+    width: fit-content;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.book-card{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 0 0.5rem;
+    justify-content: flex-start;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%)
+}
+
+@media screen and (max-width:768px) {
+    .book-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin-top: 0.5rem;
+        padding: 1rem 1rem;
+    }
+}

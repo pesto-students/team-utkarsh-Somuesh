@@ -1,0 +1,41 @@
+:root{
+    --font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bookList{
+    font-family: var(--font-family);
+    /* width: 100%; */
+    /* padding: 0.5rem; */
+    color: #fff;
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    border-radius: 5px;
+    min-height: 545px;
+}
+
+
+.book-title, .book-detail{
+    padding: 1rem;
+    
+}
+
+.book-title::after{
+    display: block;
+    content: "------";
+}
+
+@media screen and (max-width:768px) {
+    .bookList{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin-top: 1rem;
+        padding: 1rem 1rem;
+    }
+}
