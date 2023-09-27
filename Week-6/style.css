@@ -1,0 +1,107 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Navbar and Menu Starts */
+.navbar{
+    
+    font-weight: 600;
+    color:white;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.logo{
+    max-width: 100px;
+    mix-blend-mode: darken;
+}
+.logoText{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-item{
+    padding: 10px;
+    list-style-type: none;
+}
+
+.menu-item:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* Input section starts */
+#takeInput{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.heading{
+    font-size: 30px;
+    margin: 20px;
+}
+
+.inputPrompt{
+    margin: 10px;
+    width: 60%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 3px;
+}
+
+#btnSubmit{
+    padding: 5px;
+    margin: 10px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 1px 2px;
+}
+
+#btnSubmit:hover{
+    padding: 5px;
+    margin: 10px;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 2px 3px;
+    cursor: pointer;
+}
+
+/* Display section starts */
+#displayOutput{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px dashed blueviolet;
+    min-height: 200px;
+    
+}
+
+.outputText{
+    margin-top: 80px;
+}
+
+#displayOutput img{
+    margin: 20px;
+    padding: 20px;
+}
+
+
+#generatedImage{
+    display: none;
+    width: 300px;
+}
